@@ -1,10 +1,10 @@
 def reverse_each_word(sentence)
-  new_string = []
+  new_array = []
   array = sentence.split(" , ")
   array.each do |word|
-    new_string = word.reverse!
+    new_array = word.reverse!
   end
-  return new_string.join(' , ')
+  return new_array.join(' , ')
 end
 
 def reverse_each_word(sentence)
