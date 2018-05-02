@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   array.each do |word|
     word.reverse!
   end
-  return array.join
+  return array.join(" ")
 end
 
 def reverse_each_word(sentence)
@@ -11,5 +11,5 @@ def reverse_each_word(sentence)
   array.collect do |word|
     word.reverse!
   end
-  return array.join
+  return array.join(" ")
 end
