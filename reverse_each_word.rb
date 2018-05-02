@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   array.each do |word|
     sentence_string = new_string.push(word.reverse)
   end
-  return sentence_string
+  return sentence_string,join
 end
 
 def reverse_each_word(sentence)
