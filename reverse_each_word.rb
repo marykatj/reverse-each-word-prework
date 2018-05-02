@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
     reversed_word = word.reverse!
     new_array = new_array.push(reversed_word)
   end
-  return new_array.join("")
+  return new_array.join(" ")
 end
 
 def reverse_each_word(sentence)
